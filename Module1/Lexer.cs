@@ -56,7 +56,11 @@ public class Program
 		/*IntLexer.Testing();
 		IdentifierLexer.Testing();
 		SignedIntLexer.Testing();
-		LettersNumbersAlt.Testing();*/
+		LettersNumbersAlt.Testing();
 		LettersSeqWithDel.Testing();
+
+		//Дополнительные
+		NumSeqWithDel.Testing();*/
+		doubleLettersNumbers.Testing();
 	}
 }
