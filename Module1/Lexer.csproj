@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IdentifierLexer.cs" />
+    <Compile Include="IntLexer.cs" />
+    <Compile Include="LettersNumbersAlt.cs" />
+    <Compile Include="LettersSeqWithDel.cs" />
     <Compile Include="Lexer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignedIntLexer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
