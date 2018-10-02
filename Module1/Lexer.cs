@@ -53,7 +53,7 @@ public class Program
 {
     public static void Main()
     {
-		/*IntLexer.Testing();
+		IntLexer.Testing();
 		IdentifierLexer.Testing();
 		SignedIntLexer.Testing();
 		LettersNumbersAlt.Testing();
@@ -62,7 +62,8 @@ public class Program
 		//Дополнительные
 		NumSeqWithDel.Testing();
 		doubleLettersNumbers.Testing();
-		RealNumWithDot.Testing();*/
-		
+		RealNumWithDot.Testing();
+		StringS.Testing();
+		CommentString.Testing();
 	}
 }
