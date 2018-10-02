@@ -60,7 +60,9 @@ public class Program
 		LettersSeqWithDel.Testing();
 
 		//Дополнительные
-		NumSeqWithDel.Testing();*/
+		NumSeqWithDel.Testing();
 		doubleLettersNumbers.Testing();
+		RealNumWithDot.Testing();*/
+		
 	}
 }

@@ -113,18 +113,18 @@ namespace LexTasks
                 { "b6fff;", "error" },
             };
 
-            foreach (var t in tests)
+            foreach (var test in tests)
             {
-                var L = new doubleLettersNumbers(t.Key);
+                var L = new doubleLettersNumbers(test.Key);
                 bool passed = false;
                 try
                 {
                     L.Parse();
-                    passed = L.letString.Equals(t.Value);
+                    passed = L.letString.Equals(test.Value);
                 }
                 catch (LexerException e)
                 {
-                    passed = t.Value.Equals("error");
+                    passed = test.Value.Equals("error");
                 }
 
                 if (passed)
